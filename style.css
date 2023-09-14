@@ -3,3 +3,40 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+figure{
+  text-align: center;
+  margin: 20px;
+}
+a ~ p{
+  padding: 10px;
+  background-color: grey;
+}
+figcaption{
+  text-align: center;
+}
+/* Style the image container */
+img {
+  text-align: center; /* Center the image and caption */
+  margin: 100px 100px; /* Add spacing around the container */
+  width: 100x;
+  height: 100x;
+}
+nav{
+  text-align: center;
+  background-color: rgb(245, 226, 226);
+
+}
+p{
+  text-align: center;
+}
+#details{
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+}
